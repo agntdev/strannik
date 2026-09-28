@@ -7,7 +7,7 @@
           {
             "method": "sendMessage",
             "payload": {
-              "text": "See personal stats: balance, earned history, inventory, referral link and status"
+              "text": "Here’s your progress:\n\nBalance: 0 points\nEarned: 0 points\nPrizes claimed: 0\n\nInvite a friend and earn a bonus when they finish onboarding and their first quiz.\nhttps://t.me/test_bot?start=invite-1"
             }
           }
         ],

@@ -7,7 +7,7 @@
           {
             "method": "sendMessage",
             "payload": {
-              "text": "Browse prize shop (paginated), view item details, and confirm redemption"
+              "text": "Pick a prize and spend your points wisely."
             }
           }
         ],

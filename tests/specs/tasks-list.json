@@ -7,7 +7,7 @@
           {
             "method": "sendMessage",
             "payload": {
-              "text": "View available tasks, accept tasks, and submit proof"
+              "text": "Choose a small task and earn points when your proof is checked."
             }
           }
         ],

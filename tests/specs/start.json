@@ -7,7 +7,7 @@
         "expect": [
           {
             "method": "sendMessage",
-            "payload": { "text": "👋 Welcome! Tap a button below to get started." }
+            "payload": { "text": "👋 Welcome to STrANNIK!\n\nYou earn 100 points for a correct quiz answer and lose 50 for a wrong one. Video rewards need #STrANNIK and 5,000 views.\n\nYour balance: 0 points\nInvite a friend: https://t.me/test_bot?start=invite-1" }
           }
         ]
       }

@@ -7,7 +7,7 @@
           {
             "method": "sendMessage",
             "payload": {
-              "text": "Start a quiz session: pick a category then answer multiple-choice questions"
+              "text": "Pick a topic and let’s see what you know."
             }
           }
         ],
