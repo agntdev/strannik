@@ -9,8 +9,9 @@ import { inlineButton, inlineKeyboard } from "../toolkit/index.js";
 const composer = new Composer<Ctx>();
 
 const HELP =
-  "ℹ️ Tap /start to open the menu, then pick what you want from the buttons.\n\n" +
-  "Everything in this bot is reachable by tapping — you don't need to remember any commands.";
+  "ℹ️ Tap /start to open the menu, then pick a quiz, task, video challenge, or prize.\n\n" +
+  "Correct quiz answers add 100 points. Wrong answers lose 50, but your balance never goes below zero. Videos need #STrANNIK and 5,000 views.\n\n" +
+  "Need a hand? Send a message to the owner from the menu.";
 
 const backToMenu = inlineKeyboard([[inlineButton("⬅️ Back to menu", "menu:main")]]);
 

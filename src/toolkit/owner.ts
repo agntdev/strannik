@@ -31,7 +31,10 @@ export type OwnerAwareCtx = {
   env?: Record<string, unknown> | null;
   from?: { id: number } | undefined;
   chat?: { id: number } | undefined;
-  reply: (text: string, ...args: unknown[]) => unknown | Promise<unknown>;
+  // The exact grammY `Other` generic differs between message and callback
+  // contexts; keeping the optional transport arguments opaque preserves the
+  // helper's compatibility with both.
+  reply: (text: string, ...args: any[]) => unknown | Promise<unknown>;
   answerCallbackQuery?: (
     opts?: { text?: string; show_alert?: boolean },
   ) => unknown | Promise<unknown>;

@@ -7,7 +7,7 @@
           {
             "method": "sendMessage",
             "payload": {
-              "text": "Guided flow: show exact requirements, request public link + view count, and submit for admin review"
+              "text": "Share a public video with #STrANNIK and at least 5,000 views. Send the public link now."
             }
           }
         ],

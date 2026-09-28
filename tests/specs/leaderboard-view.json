@@ -7,7 +7,7 @@
           {
             "method": "sendMessage",
             "payload": {
-              "text": "View top users for day/week/month/all-time and user's own rank"
+              "text": "See how you’re doing and choose a time window."
             }
           }
         ],
