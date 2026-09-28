@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Shop",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "Browse prize shop (paginated), view item details, and confirm redemption"
+            }
+          }
+        ],
+        "send": {
+          "callback": "shop:browse"
+        }
+      }
+    ]
+  }
+]
