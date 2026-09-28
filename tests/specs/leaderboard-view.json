@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Leaderboard",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "View top users for day/week/month/all-time and user's own rank"
+            }
+          }
+        ],
+        "send": {
+          "callback": "leaderboard:view"
+        }
+      }
+    ]
+  }
+]
